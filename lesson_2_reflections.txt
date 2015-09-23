@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You get a .git file. And this is the way to get the files in the directory to be tracked using git.
+
+Q2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Ans: Staging area tells you what files are being tracked and what arent;
