@@ -1,0 +1,2 @@
+Q.1. When would you want to use a remote repository rather than keeping all your work local?
+Ans. when you want to share your work with others, put it on a public repo for others to download and work. And when you want to access from mutliple machines.
