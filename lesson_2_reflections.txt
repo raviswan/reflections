@@ -5,3 +5,21 @@ You get a .git file. And this is the way to get the files in the directory to be
 Q2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Ans: Staging area tells you what files are being tracked and what arent;
+
+Q3. How can you use the staging area to make sure you have one commit per logical change?
+Ans. By not putting into staging area no more than  what's needed for that logical change . Then a git commit will only check in the logical changes	
+
+Q4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans. When you are going to need a snapshot of your code that will serve as base for additional changes , then you create a branch. If there are multiple people working on the same code, then we need a branch.
+
+Q5. How do the diagrams help you visualize the branch structure?
+
+A. They help understand the parent structure
+
+Q6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Ans: Merging branches is to create a common line to work off that inclues all the changes. This way we know how changes were introduced and they were integrated.
+
+Q7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Ans. Automatic merging is good in trivial cases, whereas manual merge is good in conflicts on same piece of code.
