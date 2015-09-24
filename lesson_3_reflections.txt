@@ -2,3 +2,7 @@ Q.1. When would you want to use a remote repository rather than keeping all your
 Ans. when you want to share your work with others, put it on a public repo for others to download and work. And when you want to access from mutliple machines.
 Q2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Ans: This is because I might not want to make public some of the local changes I am working on. Syncing automatically would lead to this problem.
+
+Q3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Ans: forks is used to make a copy of the repository on the Githun. Clone is used to copy a git repo locally or from a remote side. Branches are just to make a copy of the commit locally to allow paralell access to the files.
+Forks are used only on Github and the like.
